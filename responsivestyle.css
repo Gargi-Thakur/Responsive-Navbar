@@ -10,3 +10,11 @@ body{
   margin:auto;
   overflow:hidden;
 }
+
+header{
+  background:#003657;
+  color:#ffffff;
+  padding-top:30px;
+  min-height:70px;
+  border-bottom:#d93102 3px solid;
+}
