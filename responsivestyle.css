@@ -2,7 +2,7 @@ body{
   font: 15px/1.5 Arial, Helvetica,sans-serif;
   padding:0;
   margin:0;
-  background-color:#f4f4f4;
+  background-color:#ffffc9;
 }
 
 .container{
@@ -12,9 +12,40 @@ body{
 }
 
 header{
-  background:#d1bea8;
-  color:#0;
+  background:#2a291d;
+  color:#d0d07e ;
   padding-top:30px;
   min-height:70px;
-  border-bottom:#2e4157 3px solid;
+  border-bottom:#4f4e33 3px solid;
+}
+
+header a{
+  color:#ffffff;
+  text-decoration:none;
+  text-transform: uppercase;
+  font-size:16px;
+}
+
+header ul{
+  margin: 0;
+  padding: 0;
+}
+
+header li {
+  float: left;
+  display: inline;
+  padding: 0 20px;
+}
+
+header #branding {
+  float: left;
+}
+
+header #branding h1 {
+  margin: 0;
+}
+
+header nav {
+  float: right;
+  margin-top: 15px;
 }
