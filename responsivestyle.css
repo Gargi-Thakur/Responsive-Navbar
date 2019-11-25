@@ -2,7 +2,7 @@ body{
   font: 15px/1.5 Arial, Helvetica,sans-serif;
   padding:0;
   margin:0;
-  background-color:#ffffc9;
+  background-color:#e6e0f6;
 }
 
 .container{
@@ -12,15 +12,15 @@ body{
 }
 
 header{
-  background:#2a291d;
-  color:#d0d07e ;
+  background:#5b51c3;
+  color: #e6e0f6 ;
   padding-top:30px;
   min-height:70px;
-  border-bottom:#4f4e33 3px solid;
+  border-bottom:#dea19d 3px solid;
 }
 
 header a{
-  color:#ffffff;
+  color:#e6e0f6;
   text-decoration:none;
   text-transform: uppercase;
   font-size:16px;
@@ -48,4 +48,9 @@ header #branding h1 {
 header nav {
   float: right;
   margin-top: 15px;
+}
+
+header .highlight, header .current a{
+  color:#dea19d;
+  font-weight:bold;
 }
