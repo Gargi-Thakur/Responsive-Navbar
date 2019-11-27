@@ -77,3 +77,32 @@ header a:hover{
   font-size:20px;
   font-weight: bold;
 }
+
+#newsletter {
+  padding:10px ;
+  color:#e6e0f6;
+  background:#5b51c3;
+  border-top:#dea19d 3px solid;
+}
+
+#newsletter h1 {
+  float:auto;
+}
+
+#newsletter form {
+  float:right;
+  margin-top:15px;
+}
+
+#newsletter input[type="email"]{
+  padding:4px;
+  height:25px;
+  width:250px;
+}
+
+.button_1{
+  height:30px;
+  background:#dea19d;
+  padding-left: 20px;
+  padding-right:20px;
+}
