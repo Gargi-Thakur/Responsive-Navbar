@@ -129,3 +129,21 @@ footer{
   background-color:#dea19d;
   text-align: center;
 }
+
+
+
+/* Sidebar in About page*/
+aside#sidebar{
+  float:right;
+  width:30%;
+  margin-top:10px;
+}
+
+/* Main-col in About page */
+article#main-col{
+  float:left;
+  width:65%;
+  margin-top:10px;
+}
+
+
